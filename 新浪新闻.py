@@ -45,7 +45,7 @@ db = client['new_database']
 # column=db.article
 # 2.以数据字典的形式
 column = db['article']
-# 插入数据
+#  插入数据
 result = column.insert_one(data)
 print(result)
 
