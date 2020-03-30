@@ -97,8 +97,8 @@ column = db.infos
 #     {'$set': {'url': 'https://mongoing.com/page/1-update'}}
 # )
 # data1_result = column.find_one({'page': 1})
-# # print(data1_result)
-# # 更新多条数据
+# print(data1_result)
+# 更新多条数据
 update_many = column.update_many(
     {'id': 1},
     {'$set': {'time': '莫晓得'}}
@@ -107,9 +107,9 @@ data2_result = column.find({'id': 1})
 for data in data2_result:
     print(data)
 
-# # 删除
-# # 删除单条记录
-# # column.delete_one({'id': 1})
+# 删除
+# 删除单条记录
+# column.delete_one({'id': 1})
 # 删除多条记录
 column.delete_many({'id': 3})
 all_data = column.find()
