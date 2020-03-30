@@ -129,8 +129,8 @@ df.to_csv("../data/国家统计局.csv", encoding='gbk')
 print(df)
 
 # # pandas读文件
-# df2 = pd.read_csv("../data/诚信.csv", encoding='gbk')
-# print(df2.head(5))
+df2 = pd.read_csv("../data/诚信.csv", encoding='gbk')
+print(df2.head(5))
 
 
 
