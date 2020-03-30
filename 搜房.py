@@ -12,6 +12,7 @@ def stripText(textList):
                 str_list = item_str
     return str_list
 
+# 代理
 # proxies = {
 # "https": '163.125.253.174',
 # }
