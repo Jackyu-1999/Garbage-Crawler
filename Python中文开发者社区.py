@@ -81,7 +81,7 @@ for data in find_all:
 
 # 删除
 #  删除单条记录
-# column.delete_one({'page': 2})
+column.delete_one({'page': 2})
 
 
 
